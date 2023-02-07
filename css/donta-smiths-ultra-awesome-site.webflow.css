@@ -2638,14 +2638,15 @@ li {
   opacity: 0.8;
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
-  color: #28224b;
+  color: #1F2933;
+  font-weight: 600;
   font-size: 16px;
   text-transform: none;
 }
 
 .nav-link:hover {
   opacity: 1;
-  color: #28224b;
+  color: #1F2933;
 }
 
 .nav-link.w--current {
@@ -2863,7 +2864,7 @@ li {
 }
 
 .footer-link:hover {
-  color: #28224b;
+  color: #1F2933;
 }
 
 .container {
@@ -4175,7 +4176,7 @@ li {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  min-height: 500px;
+  min-height: 100vh;
   padding: 100px 3%;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
