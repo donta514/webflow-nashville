@@ -2956,17 +2956,27 @@ li {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
-  align-items: flex-start;
+  
+  /* Changed CSS */
+  justify-content: center; 
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  gap: 2rem;
+
 }
 
 .brand-span {
   color: #AD1D07;
+}
+
+.brand-span-sec {
+  color: #AD1D07;
+  font-weight: 600;
 }
 
 .review-wrap {
@@ -3446,6 +3456,7 @@ li {
   padding-bottom: 20px;
   color: #7e828f;
   font-size: 18px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: -0.25px;
 }
@@ -3455,7 +3466,7 @@ li {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   padding-top: 60px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -3467,6 +3478,9 @@ li {
   align-items: center;
   border-top: 1px solid rgba(126, 130, 143, 0.09);
   font-size: 15px;
+
+  /* New CSS */
+  margin-top: 0;
 }
 
 .footer-detail-left {
@@ -4971,3 +4985,10 @@ li {
   font-style: normal;
   font-display: auto;
 }
+
+
+
+
+
+
+/* Custom CSS */
