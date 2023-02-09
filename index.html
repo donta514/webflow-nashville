@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Mon Feb 06 2023 15:59:39 GMT+0000 (Coordinated Universal Time)  -->
 <html
   data-wf-page="63e11cde7044541d81c4eb83"
   data-wf-site="63e11cde7044540a47c4eb7d"
@@ -64,7 +62,7 @@
     </div>
     <div
       data-animation="default"
-      class="navbar w-nav"
+      class="navbar w-nav sticky"
       data-easing2="ease"
       data-easing="ease"
       data-collapse="medium"
@@ -73,7 +71,7 @@
       data-duration="400"
       id="Navigation"
     >
-      <div class="navigation-container">
+      <div class="navigation-container sticky">
         <div class="navigation-left">
           <a
             href="index.html"
@@ -102,114 +100,10 @@
               >Contact</a
             >
           </nav>
-          <!-- <div data-node-type="commerce-cart-wrapper" data-open-product="" data-wf-cart-type="rightSidebar" data-wf-cart-query="" data-wf-page-link-href-prefix="" class="w-commerce-commercecartwrapper">
-          <a href="#" data-node-type="commerce-cart-open-link" class="w-commerce-commercecartopenlink cart-button w-inline-block"><svg class="w-commerce-commercecartopenlinkicon cart-icon" width="17px" height="17px" viewbox="0 0 17 17">
-              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                <path d="M2.60592789,2 L0,2 L0,0 L4.39407211,0 L4.84288393,4 L16,4 L16,9.93844589 L3.76940945,12.3694378 L2.60592789,2 Z M15.5,17 C14.6715729,17 14,16.3284271 14,15.5 C14,14.6715729 14.6715729,14 15.5,14 C16.3284271,14 17,14.6715729 17,15.5 C17,16.3284271 16.3284271,17 15.5,17 Z M5.5,17 C4.67157288,17 4,16.3284271 4,15.5 C4,14.6715729 4.67157288,14 5.5,14 C6.32842712,14 7,14.6715729 7,15.5 C7,16.3284271 6.32842712,17 5.5,17 Z" fill="currentColor" fill-rule="nonzero"></path>
-              </g>
-            </svg>
-            <div class="w-commerce-commercecartopenlinkcount cart-quantity">0</div>
-          </a>
-          <div data-node-type="commerce-cart-container-wrapper" style="display:none" class="w-commerce-commercecartcontainerwrapper w-commerce-commercecartcontainerwrapper--cartType-rightSidebar">
-            <div data-node-type="commerce-cart-container" class="w-commerce-commercecartcontainer">
-              <div class="w-commerce-commercecartheader">
-                <h4 class="w-commerce-commercecartheading">Your Order</h4>
-                <a href="#" data-node-type="commerce-cart-close-link" class="w-commerce-commercecartcloselink w-inline-block"><svg width="16px" height="16px" viewbox="0 0 16 16">
-                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                      <g fill-rule="nonzero" fill="#333333">
-                        <polygon points="6.23223305 8 0.616116524 13.6161165 2.38388348 15.3838835 8 9.76776695 13.6161165 15.3838835 15.3838835 13.6161165 9.76776695 8 15.3838835 2.38388348 13.6161165 0.616116524 8 6.23223305 2.38388348 0.616116524 0.616116524 2.38388348 6.23223305 8"></polygon>
-                      </g>
-                    </g>
-                  </svg></a>
-              </div>
-              <div class="w-commerce-commercecartformwrapper">
-                <form data-node-type="commerce-cart-form" style="display:none" class="w-commerce-commercecartform">
-                  <script type="text/x-wf-template" id="wf-template-33c883c6-4afc-cc73-3bca-d2857a9d4be4"></script>
-                  <div class="w-commerce-commercecartlist" data-wf-collection="database.commerceOrder.userItems" data-wf-template-id="wf-template-33c883c6-4afc-cc73-3bca-d2857a9d4be4"></div>
-                  <div class="w-commerce-commercecartfooter">
-                    <div class="w-commerce-commercecartlineitem cart-line-item">
-                      <div>Subtotal</div>
-                      <div class="w-commerce-commercecartordervalue text-block"></div>
-                    </div>
-                    <div>
-                      <div data-node-type="commerce-cart-quick-checkout-actions">
-                        <a role="button" tabindex="0" aria-haspopup="dialog" aria-label="Apple Pay" data-node-type="commerce-cart-apple-pay-button" style="background-image:-webkit-named-image(apple-pay-logo-white);background-size:100% 50%;background-position:50% 50%;background-repeat:no-repeat" class="w-commerce-commercecartapplepaybutton apple-pay">
-                          <div></div>
-                        </a>
-                        <a role="button" tabindex="0" aria-haspopup="dialog" data-node-type="commerce-cart-quick-checkout-button" style="display:none" class="w-commerce-commercecartquickcheckoutbutton"><svg class="w-commerce-commercequickcheckoutgoogleicon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewbox="0 0 16 16">
-                            <defs>
-                              <polygon id="google-mark-a" points="0 .329 3.494 .329 3.494 7.649 0 7.649"></polygon>
-                              <polygon id="google-mark-c" points=".894 0 13.169 0 13.169 6.443 .894 6.443"></polygon>
-                            </defs>
-                            <g fill="none" fill-rule="evenodd">
-                              <path fill="#4285F4" d="M10.5967,12.0469 L10.5967,14.0649 L13.1167,14.0649 C14.6047,12.6759 15.4577,10.6209 15.4577,8.1779 C15.4577,7.6339 15.4137,7.0889 15.3257,6.5559 L7.8887,6.5559 L7.8887,9.6329 L12.1507,9.6329 C11.9767,10.6119 11.4147,11.4899 10.5967,12.0469"></path>
-                              <path fill="#34A853" d="M7.8887,16 C10.0137,16 11.8107,15.289 13.1147,14.067 C13.1147,14.066 13.1157,14.065 13.1167,14.064 L10.5967,12.047 C10.5877,12.053 10.5807,12.061 10.5727,12.067 C9.8607,12.556 8.9507,12.833 7.8887,12.833 C5.8577,12.833 4.1387,11.457 3.4937,9.605 L0.8747,9.605 L0.8747,11.648 C2.2197,14.319 4.9287,16 7.8887,16"></path>
-                              <g transform="translate(0 4)">
-                                <mask id="google-mark-b" fill="#fff">
-                                  <use xlink:href="#google-mark-a"></use>
-                                </mask>
-                                <path fill="#FBBC04" d="M3.4639,5.5337 C3.1369,4.5477 3.1359,3.4727 3.4609,2.4757 L3.4639,2.4777 C3.4679,2.4657 3.4749,2.4547 3.4789,2.4427 L3.4939,0.3287 L0.8939,0.3287 C0.8799,0.3577 0.8599,0.3827 0.8459,0.4117 C-0.2821,2.6667 -0.2821,5.3337 0.8459,7.5887 L0.8459,7.5997 C0.8549,7.6167 0.8659,7.6317 0.8749,7.6487 L3.4939,5.6057 C3.4849,5.5807 3.4729,5.5587 3.4639,5.5337" mask="url(#google-mark-b)"></path>
-                              </g>
-                              <mask id="google-mark-d" fill="#fff">
-                                <use xlink:href="#google-mark-c"></use>
-                              </mask>
-                              <path fill="#EA4335" d="M0.894,4.3291 L3.478,6.4431 C4.113,4.5611 5.843,3.1671 7.889,3.1671 C9.018,3.1451 10.102,3.5781 10.912,4.3671 L13.169,2.0781 C11.733,0.7231 9.85,-0.0219 7.889,0.0001 C4.941,0.0001 2.245,1.6791 0.894,4.3291" mask="url(#google-mark-d)"></path>
-                            </g>
-                          </svg><svg class="w-commerce-commercequickcheckoutmicrosofticon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 16 16">
-                            <g fill="none" fill-rule="evenodd">
-                              <polygon fill="#F05022" points="7 7 1 7 1 1 7 1"></polygon>
-                              <polygon fill="#7DB902" points="15 7 9 7 9 1 15 1"></polygon>
-                              <polygon fill="#00A4EE" points="7 15 1 15 1 9 7 9"></polygon>
-                              <polygon fill="#FFB700" points="15 15 9 15 9 9 15 9"></polygon>
-                            </g>
-                          </svg>
-                          <div>Pay with browser.</div>
-                        </a>
-                      </div>
-                      <a href="checkout.html" value="Continue to Checkout" data-node-type="cart-checkout-button" class="w-commerce-commercecartcheckoutbutton checkout-button" data-loading-text="Hang Tight...">Continue to Checkout</a>
-                    </div>
-                  </div>
-                </form>
-                <div class="w-commerce-commercecartemptystate empty-state">
-                  <div>We couldn&#x27;t find any items in your cart.</div>
-                  <div class="button-arrow-wrap">
-                    <a href="order.html" class="button w-button">Start an Order</a><img src="images/Drawn-Arrow.svg" alt="" class="arrow-drawn">
-                  </div>
-                </div>
-                <div style="display:none" data-node-type="commerce-cart-error" class="w-commerce-commercecarterrorstate">
-                  <div class="w-cart-error-msg" data-w-cart-quantity-error="Product is not available in this quantity." data-w-cart-general-error="Something went wrong when adding this item to the cart." data-w-cart-checkout-error="Checkout is disabled on this site." data-w-cart-cart_order_min-error="The order minimum was not met. Add more items to your cart to continue." data-w-cart-subscription_error-error="Before you purchase, please use your email invite to verify your address so we can send order updates.">Product is not available in this quantity.</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
         </div>
       </div>
     </div>
-    <!-- <div class="cta-full-image">
-    <div class="container">
-      <div class="w-layout-grid grid-3">
-        <div class="h1">CJ's Nashville Hot Chicken</div>
-        <div class="statistic-block">
-          <h1 class="statistic">62</h1><img src="images/wave-blue.svg" alt="" class="wave">
-          <div class="text-block-82">Fiesty Menu Items</div>
-        </div>
-        <div class="statistic-block">
-          <h1 class="statistic">139</h1><img src="images/wave-blue.svg" alt="" class="wave">
-          <div class="text-block-82">Fiesty Menu Items</div>
-        </div>
-        <div class="statistic-block">
-          <h1 class="statistic">34</h1><img src="images/wave-blue.svg" alt="" class="wave">
-          <div class="text-block-82">Fiesty Menu Items</div>
-        </div>
-        <div class="statistic-block">
-          <h1 class="statistic">57</h1><img src="images/wave-blue.svg" alt="" class="wave">
-          <div class="text-block-82">Fiesty Menu Items</div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-    <div id="Header" class="header">
+    <div id="Header" class="header cta-full-image">
       <div class="container-flex">
         <div class="hero-content">
           <h1
@@ -260,27 +154,6 @@
           >
             <a href="order.html" class="button w-button">View Menu</a>
           </div>
-          <!-- <div style="-webkit-transform:translate3d(-25PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-25PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-25PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-25PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="review-wrap"><img src="images/trustpilot-logo.svg" alt="" class="review-logo">
-          <div class="review-text"><span class="brand-span">4.8 out of 5</span> based on 2000+ reviews</div>
-        </div> -->
-        </div>
-        <div class="hero-image-wrap">
-          <img
-            src="images/food-image.jpg"
-            alt="Food Delivery"
-            style="
-              opacity: 0;
-              -webkit-transform: translate3d(0, 0, 0) scale3d(0.95, 0.95, 1)
-                rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-              -moz-transform: translate3d(0, 0, 0) scale3d(0.95, 0.95, 1)
-                rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-              -ms-transform: translate3d(0, 0, 0) scale3d(0.95, 0.95, 1)
-                rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-              transform: translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0)
-                rotateY(0) rotateZ(0) skew(0, 0);
-            "
-            class="hero-image"
-          />
         </div>
       </div>
     </div>
@@ -291,7 +164,7 @@
             <h2>Let us cater to you.</h2>
             <p>
               We've served our perfected recipes to many family, friends,
-              neighbors, and co-workers to our house for "Nashville" hot chicken
+              neighbors, and co-workers to our house for "Nashville Hot" chicken
               parties.
             </p>
             <p>
@@ -299,16 +172,16 @@
               of Nashville with you.
             </p>
             <a href="company.html" class="button button-space w-button"
-              >Learn about us</a
+              >Learn more</a
             >
           </div>
           <div class="image-block">
             <img
-              src="images/Food-Image.png"
+              src="images/nashville-logo.png"
               sizes="(max-width: 556px) 94vw, 523px"
               srcset="
-                images/Group-33-p-500.png 500w,
-                images/Food-Image.png     523w
+                images/nashville-logo.png 500w,
+                images/nashville-logo.png 523w
               "
               alt=""
             />
@@ -319,17 +192,16 @@
     <div class="content-section">
       <div class="container">
         <div class="title-wrap-centre">
-          <h2>How it works.</h2>
+          <h2>What we bring to your table.</h2>
         </div>
         <div class="w-layout-grid works-grid">
           <div class="content-card">
             <!-- <img src="images/Step-01.png" alt="" class="step-image"> -->
             <div class="content-wrapper">
-              <h5>Made from the freshest ingredients.</h5>
+              <h5>The freshest ingredients.</h5>
               <p>
-                Savor the taste of a hand-crafted chicken sandwich, made with
-                the freshest ingredients for an explosion of flavor in every
-                bite.
+                All of our menu items are made fresh every day and catered to
+                your desired heat level.
               </p>
             </div>
           </div>
@@ -337,12 +209,13 @@
             <div class="line"></div>
           </div>
           <div class="content-card">
-            <!-- <img src="images/Step-02.png" alt="" class="step-image"> -->
+            <!-- <img src="images/nashville-logo.png" alt="" class="step-image"> -->
             <div class="content-wrapper">
-              <h5>The best tasting chicken sandwich.</h5>
+              <h5>The best tasting chicken.</h5>
               <p>
-                Experience the ultimate taste sensation, perfected with the
-                ideal blend of spices.
+                Our Nashville Hot chicken meets every delicious standard. Our
+                hand-battered and perfectly fried chicken will certainly enhance
+                all of your senses.
               </p>
             </div>
           </div>
@@ -354,9 +227,8 @@
             <div class="content-wrapper">
               <h5>Authentic and unique recipe.</h5>
               <p>
-                Discover a new world of flavor with CJ's Nashville Hot Chicken
-                crafted using an authentic and one-of-a-kind recipe, sure to
-                tantalize your taste buds.
+                Nashville Hot chicken is a southern staple, and we aim to keep
+                it that way no matter where we reside.
               </p>
             </div>
           </div>
@@ -368,20 +240,20 @@
         <div class="title-wrap-centre">
           <h2>Browse our menu</h2>
           <p>
-            Use our menu to place an order online, or <a href="#">phone</a> our
-            store to <br />place a pickup order. Fast and fresh food.
+            Use our menu to place an order online through our contact page, or
+            give us a call to place your order.
           </p>
         </div>
         <div
           data-duration-in="300"
           data-duration-out="100"
-          data-current="Burgers"
+          data-current="Chicken"
           data-easing="ease"
           class="w-tabs"
         >
           <div class="tab-menu-round w-tab-menu">
             <a
-              data-w-tab="Burgers"
+              data-w-tab="Chicken"
               class="tab-link-round w-inline-block w-tab-link w--current"
             >
               <div>Chicken</div>
@@ -393,236 +265,61 @@
               <div>Sides</div>
             </a>
             <a
-              data-w-tab="Drinks"
+              data-w-tab="Sweets"
               class="tab-link-round w-inline-block w-tab-link"
             >
-              <div>Drinks</div>
+              <div>Sweets</div>
             </a>
           </div>
           <div class="w-tab-content">
             <div
-              data-w-tab="Burgers"
+              data-w-tab="Chicken"
               class="tab-pane-wrap w-tab-pane w--tab-active"
             >
-              <div class="w-dyn-list">
-                <div role="list" class="order-collection w-dyn-items w-row">
-                  <div
-                    role="listitem"
-                    class="menu-item w-dyn-item w-col w-col-6"
-                  >
-                    <div class="food-card">
-                      <a href="#" class="food-image-square w-inline-block"
-                        ><img src="" alt="" class="food-image"
-                      /></a>
-                      <div class="food-card-content">
-                        <a href="#" class="food-title-wrap w-inline-block">
-                          <h6></h6>
-                          <div class="price"></div>
-                        </a>
-                        <p class="paragraph"></p>
-                        <div class="add-to-cart">
-                          <form
-                            data-node-type="commerce-add-to-cart-form"
-                            class="w-commerce-commerceaddtocartform default-state"
-                          >
-                            <input
-                              type="number"
-                              pattern="^[0-9]+$"
-                              inputmode="numeric"
-                              id="quantity-77d000eb734842aa4cf87b0bb03800c1"
-                              name="commerce-add-to-cart-quantity-input"
-                              min="1"
-                              class="w-commerce-commerceaddtocartquantityinput quantity"
-                              value="1"
-                            /><input
-                              type="submit"
-                              value="Add to Cart"
-                              data-node-type="commerce-add-to-cart-button"
-                              data-loading-text="Adding to cart..."
-                              aria-busy="false"
-                              aria-haspopup="dialog"
-                              class="w-commerce-commerceaddtocartbutton order-button"
-                            />
-                          </form>
-                          <div
-                            style="display: none"
-                            class="w-commerce-commerceaddtocartoutofstock out-of-stock-state"
-                          >
-                            <div>This product is out of stock.</div>
-                          </div>
-                          <div
-                            data-node-type="commerce-add-to-cart-error"
-                            style="display: none"
-                            class="w-commerce-commerceaddtocarterror"
-                          >
-                            <div
-                              data-node-type="commerce-add-to-cart-error"
-                              data-w-add-to-cart-quantity-error="Product is not available in this quantity."
-                              data-w-add-to-cart-general-error="Something went wrong when adding this item to the cart."
-                              data-w-add-to-cart-mixed-cart-error="You can’t purchase another product with a subscription."
-                              data-w-add-to-cart-buy-now-error="Something went wrong when trying to purchase this item."
-                              data-w-add-to-cart-checkout-disabled-error="Checkout is disabled on this site."
-                              data-w-add-to-cart-select-all-options-error="Please select an option in each set."
-                            >
-                              Product is not available in this quantity.
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+              <div class="menu-container">
+                <div class="menu-wrapper">
+                  <p class="menu-items">Chicken Tenders</p>
+                  <span class="menu-item-price brand-span">$12.00</span>
                 </div>
-                <div class="w-dyn-empty">
-                  <div>No items found.</div>
-                </div>
+                <p class="menu-item-description">
+                  Two chicken tenders served on white bread with bread and
+                  butter pickles.
+                </p>
               </div>
             </div>
             <div data-w-tab="Sides" class="w-tab-pane">
-              <div class="w-dyn-list">
-                <div role="list" class="order-collection w-dyn-items w-row">
-                  <div
-                    role="listitem"
-                    class="menu-item w-dyn-item w-col w-col-6"
-                  >
-                    <div class="food-card">
-                      <a href="#" class="food-image-square w-inline-block"
-                        ><img src="" alt="" class="food-image"
-                      /></a>
-                      <div class="food-card-content">
-                        <a href="#" class="food-title-wrap w-inline-block">
-                          <h6></h6>
-                          <div class="price"></div>
-                        </a>
-                        <p class="paragraph"></p>
-                        <div class="add-to-cart">
-                          <form
-                            data-node-type="commerce-add-to-cart-form"
-                            class="w-commerce-commerceaddtocartform default-state"
-                          >
-                            <input
-                              type="number"
-                              pattern="^[0-9]+$"
-                              inputmode="numeric"
-                              id="quantity-77d000eb734842aa4cf87b0bb03800c1"
-                              name="commerce-add-to-cart-quantity-input"
-                              min="1"
-                              class="w-commerce-commerceaddtocartquantityinput quantity"
-                              value="1"
-                            /><input
-                              type="submit"
-                              value="Add to Cart"
-                              data-node-type="commerce-add-to-cart-button"
-                              data-loading-text="Adding to cart..."
-                              aria-busy="false"
-                              aria-haspopup="dialog"
-                              class="w-commerce-commerceaddtocartbutton order-button"
-                            />
-                          </form>
-                          <div
-                            style="display: none"
-                            class="w-commerce-commerceaddtocartoutofstock out-of-stock-state"
-                          >
-                            <div>This product is out of stock.</div>
-                          </div>
-                          <div
-                            data-node-type="commerce-add-to-cart-error"
-                            style="display: none"
-                            class="w-commerce-commerceaddtocarterror"
-                          >
-                            <div
-                              data-node-type="commerce-add-to-cart-error"
-                              data-w-add-to-cart-quantity-error="Product is not available in this quantity."
-                              data-w-add-to-cart-general-error="Something went wrong when adding this item to the cart."
-                              data-w-add-to-cart-mixed-cart-error="You can’t purchase another product with a subscription."
-                              data-w-add-to-cart-buy-now-error="Something went wrong when trying to purchase this item."
-                              data-w-add-to-cart-checkout-disabled-error="Checkout is disabled on this site."
-                              data-w-add-to-cart-select-all-options-error="Please select an option in each set."
-                            >
-                              Product is not available in this quantity.
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+              <div class="menu-container">
+                <div class="menu-wrapper">
+                  <p class="menu-items">Collard Greens</p>
+                  <span class="menu-item-price brand-span">$5.00</span>
                 </div>
-                <div class="w-dyn-empty">
-                  <div>No items found.</div>
+                <p class="menu-item-description"></p>
+                <div class="menu-wrapper">
+                  <p class="menu-items">Mac and Cheese</p>
+                  <span class="menu-item-price brand-span">$5.00</span>
                 </div>
+                <p class="menu-item-description"></p>
+                <div class="menu-wrapper">
+                  <p class="menu-items">Parmesean Zucchini Crisps</p>
+                  <span class="menu-item-price brand-span">$5.00</span>
+                </div>
+                <p class="menu-item-description"></p>
               </div>
             </div>
-            <div data-w-tab="Drinks" class="w-tab-pane">
-              <div class="w-dyn-list">
-                <div role="list" class="order-collection w-dyn-items w-row">
-                  <div
-                    role="listitem"
-                    class="menu-item w-dyn-item w-col w-col-6"
-                  >
-                    <div class="food-card">
-                      <a href="#" class="food-image-square w-inline-block"
-                        ><img src="" alt="" class="food-image"
-                      /></a>
-                      <div class="food-card-content">
-                        <a href="#" class="food-title-wrap w-inline-block">
-                          <h6></h6>
-                          <div class="price"></div>
-                        </a>
-                        <p class="paragraph"></p>
-                        <div class="add-to-cart">
-                          <form
-                            data-node-type="commerce-add-to-cart-form"
-                            class="w-commerce-commerceaddtocartform default-state"
-                          >
-                            <input
-                              type="number"
-                              pattern="^[0-9]+$"
-                              inputmode="numeric"
-                              id="quantity-77d000eb734842aa4cf87b0bb03800c1"
-                              name="commerce-add-to-cart-quantity-input"
-                              min="1"
-                              class="w-commerce-commerceaddtocartquantityinput quantity"
-                              value="1"
-                            /><input
-                              type="submit"
-                              value="Add to Cart"
-                              data-node-type="commerce-add-to-cart-button"
-                              data-loading-text="Adding to cart..."
-                              aria-busy="false"
-                              aria-haspopup="dialog"
-                              class="w-commerce-commerceaddtocartbutton order-button"
-                            />
-                          </form>
-                          <div
-                            style="display: none"
-                            class="w-commerce-commerceaddtocartoutofstock out-of-stock-state"
-                          >
-                            <div>This product is out of stock.</div>
-                          </div>
-                          <div
-                            data-node-type="commerce-add-to-cart-error"
-                            style="display: none"
-                            class="w-commerce-commerceaddtocarterror"
-                          >
-                            <div
-                              data-node-type="commerce-add-to-cart-error"
-                              data-w-add-to-cart-quantity-error="Product is not available in this quantity."
-                              data-w-add-to-cart-general-error="Something went wrong when adding this item to the cart."
-                              data-w-add-to-cart-mixed-cart-error="You can’t purchase another product with a subscription."
-                              data-w-add-to-cart-buy-now-error="Something went wrong when trying to purchase this item."
-                              data-w-add-to-cart-checkout-disabled-error="Checkout is disabled on this site."
-                              data-w-add-to-cart-select-all-options-error="Please select an option in each set."
-                            >
-                              Product is not available in this quantity.
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+            <div data-w-tab="Sweets" class="w-tab-pane">
+              <div class="menu-container">
+                <div class="menu-wrapper">
+                  <p class="menu-items">
+                    Moon Pies (banana, chocolate, vanilla)
+                  </p>
+                  <span class="menu-item-price brand-span">$5.00</span>
                 </div>
-                <div class="w-dyn-empty">
-                  <div>No items found.</div>
+                <p class="menu-item-description"></p>
+                <div class="menu-wrapper">
+                  <p class="menu-items">Goo-Goo Clusters</p>
+                  <span class="menu-item-price brand-span">$5.00</span>
                 </div>
+                <p class="menu-item-description"></p>
               </div>
             </div>
           </div>
@@ -650,24 +347,22 @@
         <div class="w-layout-grid content-grid">
           <div class="image-block">
             <img
-              src="images/Phones.png"
+              src="images/food-image.jpg"
               sizes="94vw"
               srcset="
-                images/Phones-p-500.png  500w,
-                images/Phones-p-800.png  800w,
-                images/Phones.png       2103w
+                images/food-image.jpg  500w,
+                images/food-image.jpg  800w,
+                images/food-image.jpg 2103w
               "
               alt=""
-            /><img src="images/Content-Pattern.svg" alt="" class="pattern" />
+            />
           </div>
           <div class="content-block">
-            <h2>Order online with our simple checkout.</h2>
+            <h2>Order online or over the phone.</h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry&#x27;s standard dummy
-              text ever since the 1500.
+              Allow us to be your one-stop shop for the best Nashville Hot chicken in town. Have questions? Head on over to our FAQ's page for assistance.
             </p>
-            <a href="faq.html" class="button button-space w-button"
+            <a href="/faq.html" class="button button-space w-button"
               >See our FAQ</a
             >
           </div>
@@ -678,33 +373,17 @@
       <div class="container">
         <div class="w-layout-grid content-grid">
           <div class="content-block bg-text">
-            <h2>Call our store and takeaway when it suits you best.</h2>
+            <h2>Support good food and local business.</h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry&#x27;s standard dummy
-              text ever since the 1500.
+              If you have ever ordered with us before, please, let us know what you think. We love to support the local community and have a positive impact on our customers.
             </p>
-            <a href="#" class="button button-space w-button"
-              >Ph. +61 233 2333</a
+            <a href="tel:202-596-7335" class="button button-space w-button"
+              >Ph. (202) 596-7335</a
             >
           </div>
           <div class="image-block">
             <img src="images/Food-Takeaway.png" alt="" />
           </div>
-        </div>
-      </div>
-    </div>
-    <div class="">
-      <div class="">
-        <!-- <div class="cta-image"></div> -->
-        <div class="cta-content">
-          <h1 class="cta-heading">
-            <span class="dark-span">Support</span> good food<br />and local
-            business.
-          </h1>
-          <a href="order.html" class="button-white button-space w-button"
-            >Order Now</a
-          >
         </div>
       </div>
     </div>
@@ -721,7 +400,6 @@
             id="w-node-_67f7db32-28d2-9f37-8b84-a159dcc6da5e-dcc6da57"
             class="footer-column"
           >
-            <!-- <div class="title">company</div> -->
             <a
               href="index.html"
               aria-current="page"
@@ -735,34 +413,10 @@
             >
           </div>
         </div>
-        <!-- <div class="w-layout-grid footer-grid">
-        <div id="w-node-_67f7db32-28d2-9f37-8b84-a159dcc6da5a-dcc6da57" class="footer-column"><img src="images/Logo.png" width="80" alt="" class="footer-logo">
-          <p>Takeaway &amp; Delivery template<br>for small - medium businesses. </p>
-        </div>
-        <div id="w-node-_67f7db32-28d2-9f37-8b84-a159dcc6da5e-dcc6da57" class="footer-column">
-          <div class="title">company</div>
-          <a href="index.html" aria-current="page" class="footer-link w--current">Home</a>
-          <a href="order.html" class="footer-link">Order</a>
-          <a href="faq.html" class="footer-link">FAQ</a>
-          <a href="mailto:hello@website.com?subject=Hi" class="footer-link">Contact</a>
-        </div>
-        <div id="w-node-_67f7db32-28d2-9f37-8b84-a159dcc6da69-dcc6da57" class="footer-column">
-          <div class="title">TEMPLATE</div>
-          <a href="template/styleguide.html" class="footer-link">Style Guide</a>
-          <a href="template/changelog.html" class="footer-link">Changelog</a>
-          <a href="template/licence.html" class="footer-link">Licence</a>
-          <a href="https://university.webflow.com/" target="_blank" class="footer-link">Webflow University</a>
-        </div>
-        <div id="w-node-_67f7db32-28d2-9f37-8b84-a159dcc6da72-dcc6da57" class="footer-column">
-          <div class="title">FLOWBASE </div>
-          <a href="http://www.flowbase.co" target="_blank" class="footer-link">More Cloneables</a>
-        </div>
-      </div> -->
         <div class="footer-legal">
           <div class="footer-detail-left">
             <div class="legal">
               Copyright © 2023. All rights reserved.
-              <!-- <a href="http://www.flowbase.co" target="_blank" class="webflow-link">Flowbase</a>  · Powered by <a href="http://webflow.com/" target="_blank" class="webflow-link">Webflow</a> -->
             </div>
           </div>
           <div class="footer-detail-right">
