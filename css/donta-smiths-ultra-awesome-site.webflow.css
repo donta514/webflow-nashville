@@ -2513,7 +2513,7 @@ body {
   color: #333;
   font-size: 15px;
   line-height: 20px;
-  background-color: #E4E7EB;
+  background-color: #e4e7eb;
 }
 
 h1 {
@@ -2529,7 +2529,7 @@ h1 {
 h2 {
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #AD1D07;
+  color: #ad1d07;
   font-size: 55px;
   line-height: 1.15;
   font-weight: 700;
@@ -2583,7 +2583,7 @@ p {
 }
 
 a {
-  color: #AD1D07;
+  color: #ad1d07;
   text-decoration: underline;
 }
 
@@ -2607,8 +2607,8 @@ li {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #AD1D07;
-  background-image: url('../images/Banner-Wave.svg');
+  background-color: #ad1d07;
+  background-image: url("../images/Banner-Wave.svg");
   background-position: 0% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -2639,7 +2639,7 @@ li {
   opacity: 0.8;
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
-  color: #1F2933;
+  color: #1f2933;
   font-weight: 600;
   font-size: 16px;
   text-transform: none;
@@ -2647,11 +2647,11 @@ li {
 
 .nav-link:hover {
   opacity: 1;
-  color: #1F2933;
+  color: #1f2933;
 }
 
 .nav-link.w--current {
-  color: #AD1D07;
+  color: #ad1d07;
 }
 
 .navigation-container {
@@ -2736,7 +2736,7 @@ li {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('../images/BG-Shape.svg');
+  background-image: url("../images/BG-Shape.svg");
   background-position: 100% 0%;
   background-size: auto;
   background-repeat: no-repeat;
@@ -2769,8 +2769,8 @@ li {
   min-height: 60px;
   padding: 20px 35px;
   border-radius: 6px;
-  background-color: #AD1D07;
-  background-image: url('../images/Button-Wave.svg');
+  background-color: #ad1d07;
+  background-image: url("../images/Button-Wave.svg");
   background-position: 0px 0px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2868,7 +2868,7 @@ li {
 }
 
 .footer-link:hover {
-  color: #1F2933;
+  color: #1f2933;
 }
 
 .container {
@@ -2905,7 +2905,7 @@ li {
 }
 
 .webflow-link {
-  color: #AD1D07;
+  color: #ad1d07;
 }
 
 .footer-grid {
@@ -2946,7 +2946,7 @@ li {
   -ms-flex-align: center;
   align-items: center;
   background-color: #f5fbfc;
-  background-image: url('../images/Pattern-Footer.svg');
+  background-image: url("../images/Pattern-Footer.svg");
   background-position: 0% 100%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -2963,23 +2963,22 @@ li {
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
-  
+
   /* Changed CSS */
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
   gap: 2rem;
-
 }
 
 .brand-span {
-  color: #AD1D07;
+  color: #ad1d07;
 }
 
 .brand-span-sec {
-  color: #AD1D07;
+  color: #ad1d07;
   font-weight: 600;
 }
 
@@ -3044,7 +3043,7 @@ li {
 }
 
 .content-block.bg-text {
-  background-image: url('../images/YumYum.png');
+  background-image: url("../images/YumYum.png");
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -3131,8 +3130,8 @@ li {
   min-width: 55px;
   padding: 13px;
   border-radius: 4px;
-  background-color: #AD1D07;
-  background-image: url('../images/Button-Wave.svg');
+  background-color: #ad1d07;
+  background-image: url("../images/Button-Wave.svg");
   background-position: 0px 0px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3164,7 +3163,7 @@ li {
   align-items: center;
   border-radius: 100px;
   box-shadow: 7px 7px 25px 0 rgba(126, 130, 143, 0.27);
-  color: #AD1D07;
+  color: #ad1d07;
   font-size: 13px;
 }
 
@@ -3225,7 +3224,7 @@ li {
 }
 
 .price {
-  color: #AD1D07;
+  color: #ad1d07;
   font-size: 16px;
   font-weight: 400;
 }
@@ -3247,7 +3246,7 @@ li {
 }
 
 .cta-image {
-  background-image: url('../images/Group-Photo.png');
+  background-image: url("../images/Group-Photo.png");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3272,8 +3271,8 @@ li {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  background-color: #AD1D07;
-  background-image: url('../images/Pattern-01.svg');
+  background-color: #ad1d07;
+  background-image: url("../images/Pattern-01.svg");
   background-position: 0px 0px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -3319,8 +3318,8 @@ li {
   -ms-flex-pack: center;
   justify-content: center;
   border-radius: 6px;
-  background-color: #AD1D07;
-  background-image: url('../images/Button-Wave.svg');
+  background-color: #ad1d07;
+  background-image: url("../images/Button-Wave.svg");
   background-position: 0px 0px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3347,7 +3346,7 @@ li {
   -ms-flex-pack: center;
   justify-content: center;
   border-radius: 4px;
-  background-color: #AD1D07;
+  background-color: #ad1d07;
 }
 
 .cart-line-item {
@@ -3407,8 +3406,8 @@ li {
 .tab-link-round.w--current {
   border-color: rgba(97, 114, 131, 0);
   border-radius: 6px;
-  background-color: #AD1D07;
-  background-image: url('../images/Button-Wave.svg');
+  background-color: #ad1d07;
+  background-image: url("../images/Button-Wave.svg");
   background-position: 0px 0px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3444,7 +3443,7 @@ li {
 }
 
 .question-title {
-  color: #AD1D07;
+  color: #ad1d07;
   font-size: 18px;
   font-weight: 600;
 }
@@ -3623,7 +3622,7 @@ li {
 }
 
 .link {
-  color: #AD1D07;
+  color: #ad1d07;
 }
 
 .utility-page-form {
@@ -3684,7 +3683,7 @@ li {
 }
 
 .text-block-81 {
-  color: #AD1D07;
+  color: #ad1d07;
 }
 
 .required {
@@ -3695,8 +3694,8 @@ li {
   min-height: 60px;
   padding: 20px 35px;
   border-radius: 4px;
-  background-color: #AD1D07;
-  background-image: url('../images/Button-Wave.svg');
+  background-color: #ad1d07;
+  background-image: url("../images/Button-Wave.svg");
   background-position: 0px 0px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3709,14 +3708,14 @@ li {
 .button-white.button-space {
   margin-top: 40px;
   background-color: #fff;
-  color: #AD1D07;
+  color: #ad1d07;
 }
 
 .content-section-bg {
   position: relative;
   padding: 140px 3%;
   background-color: transparent;
-  background-image: url('../images/BG-Shape-Content.svg');
+  background-image: url("../images/BG-Shape-Content.svg");
   background-position: 50% 50%;
   background-size: 96% 90%;
   background-repeat: no-repeat;
@@ -3919,7 +3918,7 @@ li {
 
 .colour-block {
   height: 120px;
-  background-color: #AD1D07;
+  background-color: #ad1d07;
 }
 
 .colour-block.c8 {
@@ -3992,7 +3991,7 @@ li {
 
 .size-detail {
   margin-left: 8px;
-  color: #AD1D07;
+  color: #ad1d07;
 }
 
 .strikethrough {
@@ -4033,7 +4032,7 @@ li {
   margin-left: 4px;
   padding: 10px 20px;
   border-radius: 4px;
-  background-color: #AD1D07;
+  background-color: #ad1d07;
   color: #fff;
   font-size: 14px;
   font-weight: 500;
@@ -4056,7 +4055,7 @@ li {
   -ms-flex-pack: center;
   justify-content: center;
   border-radius: 6px;
-  background-color: #AD1D07;
+  background-color: #ad1d07;
 }
 
 .button-arrow-wrap {
@@ -4094,7 +4093,7 @@ li {
 
 .price-text {
   margin-top: 20px;
-  color: #AD1D07;
+  color: #ad1d07;
   font-size: 22px;
   line-height: 1;
   font-weight: 600;
@@ -4144,8 +4143,8 @@ li {
   padding: 20px 35px;
   border-style: none;
   border-radius: 4px;
-  background-color: #AD1D07;
-  background-image: url('../images/Button-Wave.svg');
+  background-color: #ad1d07;
+  background-image: url("../images/Button-Wave.svg");
   background-position: 0px 0px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -4206,7 +4205,12 @@ li {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: radial-gradient(circle farthest-corner at 50% 50%, rgba(0, 0, 0, 0.67), rgba(25, 26, 27, 0.19)), url('../images/food-image-3.png');
+  background-image: radial-gradient(
+      circle farthest-corner at 50% 50%,
+      rgba(0, 0, 0, 0.67),
+      rgba(25, 26, 27, 0.19)
+    ),
+    url("../images/food-image-3.png");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -4305,7 +4309,7 @@ li {
   }
 
   .menu-button.w--open {
-    background-color: #AD1D07;
+    background-color: #ad1d07;
   }
 
   .nav-menu {
@@ -4371,7 +4375,6 @@ li {
     padding-top: 100px;
     padding-bottom: 100px;
     /* background-image: radial-gradient(circle farthest-corner at 50% 50%, rgba(0, 0, 0, 0.67), rgba(25, 26, 27, 0.19)), url('../images/food-image-3.jpg'); */
-
   }
 
   .content-grid {
@@ -4621,7 +4624,7 @@ li {
   .navbar {
     position: absolute;
     /* background-color: hsla(0, 0%, 100%, 0); */
-    background-color: #ffffff
+    background-color: #ffffff;
   }
 
   .header {
@@ -4972,38 +4975,33 @@ li {
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter-Medium.woff') format('woff');
+  font-family: "Inter";
+  src: url("../fonts/Inter-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter-SemiBold.woff') format('woff');
+  font-family: "Inter";
+  src: url("../fonts/Inter-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter-Regular.woff') format('woff');
+  font-family: "Inter";
+  src: url("../fonts/Inter-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter-Bold.woff') format('woff');
+  font-family: "Inter";
+  src: url("../fonts/Inter-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: auto;
 }
-
-
-
-
-
 
 /* Custom CSS */
 
@@ -5038,4 +5036,20 @@ li {
 
 .menu-item-description {
   margin: 1rem 0;
+}
+
+.note-wrapper {
+  display: grid;
+  margin-top: 3rem;
+}
+
+.note-span {
+  font-weight: 600;
+  text-align: center;
+  color: #ad1d07;
+  font-size: 18px;
+}
+
+.note-items {
+  margin: 0.5rem 0;
 }
