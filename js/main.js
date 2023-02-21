@@ -55322,7 +55322,7 @@ var paypalCurrencyList = [
  * NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE
  *
  * This const is duplicated to @packages/systems/core/constants/SharedConfig.js
- * to avoid bundling this entire SharedConfig file in the webflow.js published
+ * to avoid bundling this entire SharedConfig file in the main.js published
  * site bundle. Once we have support for bundling for the Dashboard (this
  * config is injected in to window.SharedConfig for angular), we should
  * be able to delete the const in SharedConfig and use the commerce/consts
@@ -55509,7 +55509,7 @@ var stripeCurrencyList = [
  * NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE
  *
  * This const is duplicated to @packages/systems/core/constants/SharedConfig.js
- * to avoid bundling this entire SharedConfig file in the webflow.js published
+ * to avoid bundling this entire SharedConfig file in the main.js published
  * site bundle. Once we have support for bundling for the Dashboard (this
  * config is injected in to window.SharedConfig for angular), we should
  * be able to delete the const in SharedConfig and use the commerce/consts
@@ -60545,7 +60545,7 @@ exports.createJsonFromBoundMedia = void 0;
 /*
  * WARNING
  *
- * This file is included in the `webflow.js` bundle, so
+ * This file is included in the `main.js` bundle, so
  * please refrain from adding dependencies that might
  * have an outsized impact on bundle size.
  *
@@ -60744,7 +60744,7 @@ var _ParamFieldPathUtils = __webpack_require__(365);
 var _constants = __webpack_require__(111);
 
 var _FilterUtils = __webpack_require__(366); // Avoid adding unnecessary code or imports to this file,
-// because it will directly affect the webflow.js bundle size.
+// because it will directly affect the main.js bundle size.
 // inlined from `@packages/systems/core/utils/RecordUtils` to keep bundle size minimal
 
 
@@ -62909,7 +62909,7 @@ var False = {
   '@webflow/Boolean': false
 };
 /*
- * Inlined Immutable v3.8.1 `is` to reduce webflow.js bundle size
+ * Inlined Immutable v3.8.1 `is` to reduce main.js bundle size
  * Source: https://github.com/immutable-js/immutable-js/blob/v3.8.1/src/is.js
  */
 

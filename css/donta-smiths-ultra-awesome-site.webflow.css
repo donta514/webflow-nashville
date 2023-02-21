@@ -5053,3 +5053,16 @@ li {
 .note-items {
   margin: 0.5rem 0;
 }
+
+.scov-rtg {
+  font-style: normal;
+  color: #ad1d07;
+}
+
+.scov-bold {
+  font-weight: 600;
+}
+
+.border-radius {
+  border-radius: 6px;
+}
