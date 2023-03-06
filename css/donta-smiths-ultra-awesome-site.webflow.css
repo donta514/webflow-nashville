@@ -3528,8 +3528,8 @@ li {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 12px;
-  margin-left: 12px;
+  margin-right: 15px;
+  margin-left: 15px;
   padding: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -5007,6 +5007,7 @@ li {
 
 .detail {
   font-size: 15px;
+  margin: 0;
 }
 
 .menu-container {
